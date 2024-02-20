@@ -1,0 +1,51 @@
+.content {
+	display: flex;
+	justify-content: space-between;
+	width: 100wh;
+	height: 8rem;
+	border: none;
+	padding: 3%;
+
+	h1 {
+		margin-left: 27rem;
+		margin-bottom: 3rem;
+		text-shadow: 15px 12px rgb(2, 2, 130);
+	}
+	h1:hover {
+		transition: 0.5s;
+		cursor: pointer;
+	}
+	.form {
+		.ini {
+			margin-left: 20rem;
+			height: 2.5rem;
+			width: 35rem;
+			border: 1px solid rgb(2, 2, 130);
+			background: transparent;
+
+			border-radius: 10px;
+			padding: 1%;
+		}
+		.ini:hover {
+			cursor: progress;
+			box-shadow: 5px 5px 15px 10px rgb(2, 2, 130);
+			border: 1px solid rgb(2, 2, 130);
+			transition: 1s;
+		}
+		button {
+			margin-left: 3rem;
+			background: transparent;
+			width: 6rem;
+			height: 3rem;
+			border: none;
+			border-radius: 10px;
+			border: 1px solidrgb(2, 2, 130);
+		}
+		button:hover {
+			cursor: progress;
+			box-shadow: 5px 5px 15px 5px rgb(2, 2, 130);
+			border: 1px solid rgb(2, 2, 130);
+			transition: 1s;
+		}
+	}
+}
